@@ -1,7 +1,7 @@
 var jokeData = require('./jokes.json');
 
 
-// To passs the first test.. make your constructor funciton..
+// To passs the first test.. make your constructor function..
 // and export it.
 
 // To pass the second test, add a function to the constructor

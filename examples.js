@@ -10,3 +10,5 @@ var arr = [
 var mappedPeople = arr.map(function(item) {
   return { alias: item.name, gender: item.gender }
 });
+
+console.log(mappedPeople);
