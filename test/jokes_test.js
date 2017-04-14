@@ -13,31 +13,31 @@ describe('/Joker constructor'.zebra.magenta, function(){
     expect(j).to.not.be.undefined
   })
 
-  it('joker all returns an array'.green, function(){
+  xit('joker all returns an array'.green, function(){
     expect(j.all()).to.be.a('array');
   })
 
-  it('item in array should have property joke'.green, function(){
+  xit('item in array should have property joke'.green, function(){
     expect(j.all()[0]).to.have.property('joke');
   })
 
-  it('item in array should not have property categories'.green, function(){
+  xit('item in array should not have property categories'.green, function(){
     expect(j.all()[0]).to.not.have.property('categories');
   })
 
-  it('can get random joke'.green, function(){
+  xit('can get random joke'.green, function(){
     expect(j.random().length).to.be.at.least(0);
   })
 
-  it('random joke is a string'.green, function(){
+  xit('random joke is a string'.green, function(){
     expect(j.random()).to.be.a('string');
   })
 
-  it('can get joke by id'.green, function(){
+  xit('can get joke by id'.green, function(){
     expect(j.getJoke(378)).to.have.property('joke').to.equal('There are no such things as tornados. Chuck Norris just hates trailer parks.');
   })
 
-  it('get another joke by id'.green, function(){
+  xit('get another joke by id'.green, function(){
     expect(j.getJoke(350)).to.have.property('joke').to.equal('Chuck Norris starts everyday with a protein shake made from Carnation Instant Breakfast, one dozen eggs, pure Colombian cocaine, and rattlesnake venom. He injects it directly into his neck with a syringe.');
   })
 
