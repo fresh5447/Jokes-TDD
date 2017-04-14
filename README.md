@@ -4,7 +4,7 @@ Mocha will automatically run any tests inside of the `test` directory.. you just
 
 To begin, read through the tests, and try and get a better understanding of what they are asking for. Notice: If the `it` has an 'X', it is currently commented out. Once you pass a test, uncomment the next test, and try to write a bit of code to solve it.
 
-To Begin: 
+To Begin:
 
 Clone repository and npm install.
 
@@ -29,3 +29,6 @@ The data inside of `jokes.json` is just a big blob of `JSON`
 
 I just pulled the data using this API:
 http://api.icndb.com/jokes/random/100
+
+
+For your convenince, there is a basic example of some passing tests in `mather` && `tests/mather_test.js`. You may want to start there and make sure you understand what is happening. Once you are over it, declutter your termnical by just commenting out the whole `tests/mather_test.js` file.
