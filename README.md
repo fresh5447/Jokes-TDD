@@ -1,3 +1,11 @@
+You will be tasked to write code to pass all of the tests inside of `test/jokes_test.js`
+
+Mocha will automatically run any tests inside of the `test` directory.. you just have to run the command `mocha`
+
+To begin, read through the tests, and try and get a better understanding of what they are asking for. Notice: If the `it` has an 'X', it is currently commented out. Once you pass a test, uncomment the next test, and try to write a bit of code to solve it.
+
+To Begin: 
+
 Clone repository and npm install.
 
 `git clone https://github.com/fresh5447/Jokes-TDD.git`
